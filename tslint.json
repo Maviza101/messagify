@@ -1,0 +1,58 @@
+{
+    "extends": "tslint:recommended",
+    "rules": {
+        "max-line-length": [
+            true,
+            {
+                "limit": 100,
+                "ignore-pattern": "class [a-zA-Z]+ implements|class [a-zA-Z]+ extends|\"(.+)\"|`(.+)`"
+            }
+        ],
+        "semicolon": [ true, "never" ],
+        "trailing-comma": [
+            true,
+            {
+                "multiline": "never",
+                "singleline": "never"
+            }
+        ],
+        "no-trailing-whitespace": true,
+        "no-console": true,
+        "object-literal-sort-keys": false,
+        "object-literal-key-quotes": [ true, "as-needed" ],
+        "ordered-imports": false,
+        "curly": true,
+        "arrow-parens": false,
+        "eofline": true,
+        "interface-name": true,
+        "no-empty-interface": true,
+        "no-namespace": true,
+        "member-ordering": false,
+        "max-classes-per-file": [ true, 1 ],
+        "no-var-requires": true,
+        "member-access": false,
+        "ban-types": [
+            true,
+            [ "Object", "Use {} instead." ],
+            [ "String", "Use \"\" instead." ],
+            [ "Boolean", "Use true or false instead." ]
+        ],
+        "no-empty": true,
+        "no-consecutive-blank-lines": true,
+        "space-within-parens": [ true, 1 ],
+        "whitespace": [
+            true,
+            "check-branch",
+            "check-decl",
+            "check-operator",
+            "check-module",
+            "check-separator",
+            "check-rest-spread",
+            "check-type",
+            "check-typecast",
+            "check-type-operator",
+            "check-preblock"
+        ],
+        "no-unused-variable": true
+    }
+}
