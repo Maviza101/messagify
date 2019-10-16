@@ -1,4 +1,5 @@
 declare interface ISingleFriend {
+  id: string
   firstName: string
   lastName: string
   email: string
@@ -10,8 +11,14 @@ declare interface IFriendsReduxState {
   friendsList: ISingleFriend[]
 }
 
+declare interface IChatsState {
+  currentChatIsFor: string | null
+  currentChat: string[]
+}
+
 declare interface IRootReduxState {
   friends: IFriendsReduxState
+  chats: IChatsState
 }
 
 declare interface IReduxAction {
@@ -25,3 +32,6 @@ declare interface IFriendsReducers {
   [actionType: string]: Reducer<IFriendsReduxState>
 }
 
+declare interface IChatsReducers {
+  [actionType: string]: Reducer<IChatsState>
+}

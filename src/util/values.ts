@@ -10,3 +10,5 @@ export const PROFILE_PICTURES: string[] = [
   "https://img.icons8.com/color/48/000000/bird.png",
   "https://img.icons8.com/color/48/000000/european-dragon.png"
 ]
+
+export const KEY_CODE_FOR_LINE_RETURN = 13
