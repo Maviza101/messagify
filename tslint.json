@@ -17,8 +17,9 @@
             }
         ],
         "no-trailing-whitespace": true,
-        "no-console": false,
+        "no-console": true,
         "object-literal-sort-keys": false,
+        "object-literal-key-quotes": [ true, "as-needed" ],
         "ordered-imports": false,
         "curly": true,
         "arrow-parens": false,
@@ -27,15 +28,14 @@
         "no-empty-interface": true,
         "no-namespace": true,
         "member-ordering": false,
-        "object-literal-key-quotes": [ true, "as-needed" ],
         "max-classes-per-file": [ true, 1 ],
         "no-var-requires": true,
         "member-access": false,
         "ban-types": [
             true,
             [ "Object", "Use {} instead." ],
-            [ "String" ],
-            [ "Boolean" ]
+            [ "String", "Use \"\" instead." ],
+            [ "Boolean", "Use true or false instead." ]
         ],
         "no-empty": true,
         "no-consecutive-blank-lines": true,
