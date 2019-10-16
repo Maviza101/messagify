@@ -1,5 +1,13 @@
+declare interface ISingleFriend {
+  firstName: string
+  lastName: string
+  email: string
+  profilePic: string
+  chats: string[]
+}
+
 declare interface IFriendsReduxState {
-  friendsList: any[]
+  friendsList: ISingleFriend[]
 }
 
 declare interface IRootReduxState {

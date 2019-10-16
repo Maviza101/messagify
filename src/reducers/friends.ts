@@ -1,5 +1,17 @@
+import Chance from "chance"
+
+import { PROFILE_PICTURES } from "../util/values"
+
+const chance = new Chance()
+
 const defaultState: IFriendsReduxState = {
-  friendsList: []
+  friendsList: PROFILE_PICTURES.map(pic => ({
+      firstName: chance.first(),
+      lastName: chance.last(),
+      email: chance.email(),
+      profilePic: pic,
+      chats: []
+  }))
 }
 
 const reducers: IFriendsReducers = {}
