@@ -1,8 +1,8 @@
 import React from "react"
 
 import "./App.scss"
-import MainContent from "./main-content"
-import Navbar from "./navbar"
+import MainContent from "./components/main-content"
+import Navbar from "./components/navbar"
 
 function App() {
   return (
