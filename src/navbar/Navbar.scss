@@ -3,10 +3,9 @@
 .navbar-container {
   display: flex;
   align-items: center;
-  box-sizing: border-box;
-  box-shadow: 0 2px 5px $grey-200;
+  box-shadow: 0 2px 5px $general-box-shadow-color;
   height: 10%;
-  padding: 10px 20px;
+  padding: 0.5rem 1rem;
 
   > * {
     display: inline-flex;
@@ -17,6 +16,6 @@
   }
 
   .welcome-msg-container {
-    margin-left: 10px;
+    margin-left: 0.25rem;
   }
 }

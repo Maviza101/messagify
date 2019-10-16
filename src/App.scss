@@ -1,17 +1,16 @@
 @import "styles/colors";
 
 .app-container {
-  box-sizing: border-box;
   width: 100vw;
   height: 100vh;
-  padding: 60px 50px;
+  padding: 3rem 2.5rem;
   background: $grey-100;
 }
 
 .app-children-wrapper {
+  box-shadow: 0 -3px 10px $grey-300, 3px 0 10px $grey-300, 0 3px 10px $grey-300, 0 -3px 10px $grey-300;
   width: 80%;
   height: 100%;
   margin: 0 auto;
   background: $white;
-  box-shadow: 0 -3px 10px $grey-300, 3px 0 10px $grey-300, 0 3px 10px $grey-300, 0 -3px 10px $grey-300;
 }
