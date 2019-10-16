@@ -9,7 +9,7 @@ git clone https://github.com/Maviza101/messagify.git
 ```
 - Install this project's dependencies using [yarn](https://yarnpkg.com):
 ```bash
-yarn install
+yarn # Equivalent to "yarn install".
 ```
 - Start the project:
 ```

@@ -1,0 +1,25 @@
+@import "styles/colors";
+@import "styles/dimensions";
+
+.app-container {
+  width: 100vw;
+  height: 100vh;
+  padding: 3rem 2.5rem;
+  background: $grey-100;
+
+  @media (max-width: $sm-width) {
+    padding: 0;
+  }
+}
+
+.app-children-wrapper {
+  box-shadow: 0 -3px 10px $grey-300, 3px 0 10px $grey-300, 0 3px 10px $grey-300, 0 -3px 10px $grey-300;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  background: $white;
+
+  @media (max-width: $sm-width) {
+    width: 100%;
+  }
+}

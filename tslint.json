@@ -39,7 +39,6 @@
         ],
         "no-empty": true,
         "no-consecutive-blank-lines": true,
-        "space-within-parens": [ true, 1 ],
         "whitespace": [
             true,
             "check-branch",
