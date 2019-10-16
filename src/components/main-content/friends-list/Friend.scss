@@ -1,0 +1,9 @@
+@import "styles/colors";
+
+.friend-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4em;
+  background: linear-gradient(to bottom, $white 50%, $grey-100);
+}

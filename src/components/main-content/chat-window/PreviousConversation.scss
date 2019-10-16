@@ -1,0 +1,16 @@
+@import "styles/colors";
+
+.previous-conversation-container {
+  text-align: right;
+
+  .single-msg {
+    border: 1px solid $general-box-shadow-color;
+    border-radius: 5px;
+    border-bottom-right-radius: unset;
+    display: inline-block;
+    width: 70%;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    word-break: break-word;
+  }
+}
