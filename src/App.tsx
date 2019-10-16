@@ -7,8 +7,10 @@ import Navbar from "./navbar"
 function App() {
   return (
     <div className="app-container">
-      <Navbar />
-      <MainContent />
+      <div className="app-children-wrapper">
+        <Navbar />
+        <MainContent />
+      </div>
     </div>
   )
 }

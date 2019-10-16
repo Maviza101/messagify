@@ -1,0 +1,22 @@
+@import "styles/colors";
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: 0 2px 5px $grey-200;
+  height: 10%;
+  padding: 10px 20px;
+
+  > * {
+    display: inline-flex;
+  }
+
+  .app-logo-container {
+    color: $blue-400;
+  }
+
+  .welcome-msg-container {
+    margin-left: 10px;
+  }
+}

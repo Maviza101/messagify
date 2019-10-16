@@ -1,5 +1,6 @@
 import React from "react"
 
+import "./MainContent.scss"
 import FriendsList from "./friends-list"
 import ChatWindow from "./chat-window"
 
