@@ -5,7 +5,7 @@ This is a simple messaging app built using [React](https://reactjs.org/), [TypeS
 Follow these steps to get up and running with this project on your machine:
 - Clone this repository from [GitHub](https://github.com) using [git](https://www.git-scm.com):
 ```bash
-git clone https://github.com/Maviza101/messagify.git
+git clone https://github.com/folushooladipo/messagify
 ```
 - Install this project's dependencies using [yarn](https://yarnpkg.com):
 ```bash
